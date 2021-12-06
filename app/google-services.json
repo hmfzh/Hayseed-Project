@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758668045942",
+    "project_id": "hayseed-project-inov-6de60",
+    "storage_bucket": "hayseed-project-inov-6de60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758668045942:android:5bf765a1fd757a919db957",
+        "android_client_info": {
+          "package_name": "com.miham.hayseed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758668045942-bq4s1dq7lnqvilbp4kt69559dn2jf1i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBITqGbs4gVat8TGnXJkYrv2e0Q2AkXRWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758668045942-bq4s1dq7lnqvilbp4kt69559dn2jf1i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

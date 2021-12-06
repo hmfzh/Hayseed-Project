@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.miham.hayseed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hayseed">
+        <activity
+            android:name=".presentation.onboard.BoardActivity"
+            android:exported="true" />
+        <activity android:name=".presentation.onboard.OnBoardActivity" />
+        <activity android:name=".presentation.user.UserActivity" />
+        <activity android:name=".presentation.content.ContentActivity" />
+        <activity android:name=".presentation.changepassword.ChangePasswordActivity" />
+        <activity android:name=".presentation.forgotpassword.ForgotPasswordActivity" />
+        <activity android:name=".presentation.register.RegisterActivity" />
+        <activity android:name=".presentation.login.LoginActivity" />
+        <activity android:name=".presentation.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.main.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

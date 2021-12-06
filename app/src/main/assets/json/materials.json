@@ -1,0 +1,32 @@
+[
+  {
+    "id_material": 0,
+    "title_material": "Buah Semangka",
+    "thumbnail_material": "https://cdn.pixabay.com/photo/2014/11/30/07/16/watermelon-551235_960_720.jpg"
+  },
+  {
+    "id_material": 1,
+    "title_material": "Melon",
+    "thumbnail_material": "https://i.ibb.co/fCDbPcD/news-large-2.png"
+  },
+  {
+    "id_material": 2,
+    "title_material": "Sawi",
+    "thumbnail_material": "https://i.ibb.co/fCDbPcD/news-large-2.png"
+  },
+  {
+    "id_material": 3,
+    "title_material": "Kangkung",
+    "thumbnail_material": "https://i.ibb.co/fCDbPcD/news-large-2.png"
+  },
+  {
+    "id_material": 4,
+    "title_material": "Cabai",
+    "thumbnail_material": "https://i.ibb.co/fCDbPcD/news-large-2.png"
+  },
+  {
+    "id_material": 5,
+    "title_material": "Terong",
+    "thumbnail_material": "https://i.ibb.co/fCDbPcD/news-large-2.png"
+  }
+]

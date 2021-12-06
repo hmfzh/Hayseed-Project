@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_onboard">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="38dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/hayseed"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="31dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/bercocok_tanam_kini_lebih_mudah_di_rumah"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/tidak_perlu_khawatir_kehabisan_stok_lagi_kini_kamu_dapat_menanamnya_sendiri"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewOb"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="37dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:listitem="@layout/row_items_onboard" />
+
+        <Button
+            android:id="@+id/btn_lanjut"
+            android:layout_width="149dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/custon_btn"
+            android:text="@string/lanjut"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="79dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_eget_id"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerViewOb" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
